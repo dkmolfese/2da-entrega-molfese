@@ -1,0 +1,101 @@
+/*RESET*/
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family:"Montserrat", sans-serif;
+    font-size: medium;
+}
+
+/*TIPOGRAFIAS*/
+body{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    
+}
+.titulos{
+    font-family: "Playfair Display", serif;
+    font-weight: 900;
+}
+.all-p{   
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    margin-bottom: 2%;
+    
+}
+
+/*NAV BAR*/
+.menu-list li a{
+    color: black;
+    text-decoration: none;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+
+}
+
+
+
+/*Imagenes*/
+header img{
+    width: 100%;
+    border-radius: 5px;
+}
+
+img{
+    width: 40%;
+    border-radius: 15px;
+    margin-top: 5%;
+    margin-bottom: 2%;
+    display: flex;
+    align-items: center;
+}
+
+
+
+/*main*/
+.tiposdecafe{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+    
+.nombrec{
+    display: flex;
+    align-items: start;
+}
+
+.subtitulo{
+    display: flex;
+    align-items: center;
+}
+
+footer{
+margin-bottom: 9,5%;
+}
+
+/*section*/
+.tiendas{
+    background-color: rgb(230, 181, 181);
+    color: darkslategray;
+}
+
+.presentacion__titulo__texto{
+    text-align: justify;
+    font-weight: 500;
+    text-decoration: wavy;
+}
+
+.presentacion__titulo{
+    text-align: center;
+}
+
+/*footer*/
+.container__foot{
+    margin-top: 40px;
+}
+.container__foot__izq{
+    align-items: center;
+}
